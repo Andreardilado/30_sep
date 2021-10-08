@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica final Html y Css</title>
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="content-img">
+                <img src="https://raw.githubusercontent.com/Czulkuaga/frontendgrupo1clase12/main/logo.png" alt="Hamaca">
+            </div>
+            <div class="content-nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="services.html">Servios</a></li>
+                        <li><a href="aboutus.html">Nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="ptd.html">Ptd</a></li>
+                        <li><a href="tyc.html">Tyc</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content-logs">
+                <div>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Contenido de sitio web -->
+        <div class="texto1">
+            <P>Estamos ubicados en Medellín - Antioquía, contamos con artesanos en Morroa - Sucre y San Jaciento Bolivar
+                Puedes encontrarnos en nuestras redes: Instagram, Whatsapp y Facebook.</P>
+
+        </div>
+        <div class="link">
+            <div>
+                <a class="botton" href="https://www.instagram.com/hamacasartesanaless/" target="_blank">
+                    <img src="./logoig.jpg" alt="hamacasartesanalessig" width="50" height="50">
+                </a>
+                <a class="botton" href="https://api.whatsapp.com/message/BZRHVEOVHLM4B1" target="_blank">
+                    <img src="https://s03.s3c.es/imag/_v2/ecodiario/tecnologia/225x250/Whatsapp.jpg"
+                        alt="hamacasartesanalesswpp" width="50" height="50">
+                </a>
+                <a class="botton" href="https://www.facebook.com/HamacasArtesanaless/" target="_blank">
+                    <img src="https://i.stack.imgur.com/4Zwtb.png" alt="hamacasartesanalessfb" width="50" height="50">
+                </a>
+            </div>
+        </div>
+        <form class="contacto" action="./contact.html">
+            <h2>CONTACTO</h2>
+            <input type="text" name="Nombre" placeholder="Nombre">
+            <input type="text" name="Correo" placeholder="Correo">
+            <input type="text" name="Asunto" placeholder="Asunto">
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+            <input type="button" value="ENVIAR" id="boton">
+        </form>
+
+    </main>
+    <footer>
+        <div>
+            <span>Copyright 2021 | Todos los derechos reservados | Cesar Alejandro Zuluaga Rodríguez</span>
+        </div>
+    </footer>
+</body>
+
+</html>

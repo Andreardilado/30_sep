@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono&display=swap');
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+/* Estructura básica */
+
+body{
+    background-color: #e8fdf8;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos de la etiqueta header */
+
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #036d5b;
+    background-color: rgb(187, 250, 221);
+}
+
+body header .container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Tres secciones del header */
+
+/* Sección 1 */
+body header .container .content-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-img img{
+    width: 100%;
+}
+
+/* Sección 2 */
+body header .container .content-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav{
+    width: 100%;
+}
+
+body header .container .content-nav nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+body header .container .content-nav nav ul li a{
+    text-decoration: none;
+    color:  #036d5b;
+    font-size: 1.3em;
+    font-family: 'Ephesis', cursive;
+    letter-spacing: 1px;
+}
+
+/* Sección 3 */
+body header .container .content-logs{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-logs div a svg{
+    width: 30px;
+    height: 30px;
+    color:  #036d5b;
+    margin-left: 10px;
+}
+
+/* End estilos del main */
+main{
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+}
+main section{
+    background-color: rgb(255, 255, 255);
+}
+main section .mision div h2{
+    font-family: 'Ephesis', cursive;
+    font-size: 1.8em;
+    color:  #036d5b;
+    width: 100%;
+    text-align: center;
+    box-shadow: cadetblue;
+    
+}
+main section .mision div p{
+    font-family: 'Ephesis', cursive;
+    font-size: 1.5em;
+    color: #036d5b;
+    width: 100%;
+    text-align:center;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(1, 81, 83, 0.2), 0 6px 20px 0 rgba(1, 94, 81, 0.19);
+    border-color: rgb(0, 0, 0);
+   
+}
+
+main section .mision div:nth-child(2) figure img{
+    border-radius: 12em;
+}
+/* Estilos del footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #036d5b;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: rgb(187, 250, 221);
+}
+
+footer div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div span{
+    width: 100%;
+    color:  #036d5b;
+    font-family: 'Ephesis', cursive;
+    font-size: 1.2em;
+    text-align: center;
+}

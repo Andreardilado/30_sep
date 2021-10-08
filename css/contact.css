@@ -1,0 +1,200 @@
+body{
+    background-color: #e8fdf8;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos de la etiqueta header */
+
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #036d5b;
+    background-color: rgb(187, 250, 221);
+}
+
+body header .container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Tres secciones del header */
+
+/* Sección 1 */
+body header .container .content-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-img img{
+    width: 100%;
+}
+
+/* Sección 2 */
+body header .container .content-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav{
+    width: 100%;
+}
+
+body header .container .content-nav nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+body header .container .content-nav nav ul li a{
+    text-decoration: none;
+    color:  #036d5b;
+    font-size: 1.3em;
+    font-family: 'Ephesis', cursive;
+    letter-spacing: 1px;
+}
+
+/* Sección 3 */
+body header .container .content-logs{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-logs div a svg{
+    width: 30px;
+    height: 30px;
+    color:  #036d5b;
+    margin-left: 10px;
+}
+
+/* End estilos del main */
+main{
+    margin: 80px;
+    padding: 0px;
+}
+main .texto1 p{
+    text-align: center;
+    font-size: 1.7em;
+    color: #036d5b;
+    font-family: 'Ephesis', cursive;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(1, 81, 83, 0.2), 0 6px 20px 0 rgba(1, 94, 81, 0.19); 
+    padding: 10px 88px; 
+    letter-spacing: 3px;
+    margin: 90px;
+    padding: 50px;
+}
+
+main .texto1 p .link .form{ 
+    justify-content: space-between;
+    background-color: #036d5b;
+}
+
+main .contacto{
+    width: 1800px;
+    margin: auto;
+    background:rgba(1, 81, 83, 0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+main .contacto h2{
+    font-size: 1.7em;
+    color: #036d5b;
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+main .link{
+    text-align: center;
+  
+}
+
+main input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+}
+
+main textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    cursor: pointer;
+    background-color: #86b4ac;
+    font-size: 'Ephesis', cursive;
+    padding: 20px;
+}
+
+/*main div .link div .botton{
+    justify-content: space-between;
+    justify-content: center;
+}
+
+main div:nth-child(3) form .recuadro{
+    font-family: 'Ephesis', cursive;
+    padding: 10px;
+
+}*/
+
+main div:nth-child(3) form
+
+
+/* End estilos del main */
+
+/* Estilos del footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #036d5b;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: rgb(187, 250, 221);
+}
+
+footer div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer div span{
+    width: 100%;
+    color:  #036d5b;
+    font-family: 'Ephesis', cursive;
+    font-size: 1.2em;
+    text-align: center;
+}
